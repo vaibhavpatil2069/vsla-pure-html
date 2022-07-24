@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Raleway:wght@100;200;300&family=Roboto:wght@100;300;400&display=swap');
+body{ margin: 0px; padding: 0px; font-family: 'Montserrat', sans-serif;}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+/*--------Gride style start Here------------*/
+.row {margin-left: -15px;margin-right: -15px}
+.row:after, .row:before {display: table;line-height: 0;content: ""}
+.row:after {clear: both}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+position: relative;min-height: 1px;padding-left: 15px;padding-right: 15px}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {float: left}
+.col-lg-12 {width: 100%}
+.col-lg-11 {width: 91.66666667%}
+.col-lg-10 {width: 83.33333333%}
+.col-lg-9 {width: 75%}
+.col-lg-8 {width: 66.66666667%}
+.col-lg-7 {width: 58.33333333%}
+.col-lg-6 {width: 50%}
+.col-lg-5 {width: 41.66666667%}
+.col-lg-4 {width: 33.33333333%}
+.col-lg-3 {width: 25%}
+.col-lg-2 {width: 16.66666667%}
+.col-lg-1 {width: 8.33333333%}
+.text-left {text-align: left}
+.text-right {text-align: right;position: static;}
+.text-center {text-align: center}
+.pull-right {float: right}
+.row-flex {display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;justify-content: space-between;-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;-o-flex-wrap: wrap;flex-wrap: wrap;align-items: center}
+.row-flex:after, .row-flex:before {display: none}
+.row.d-flex {display: flex;flex-wrap: wrap}
+.row.d-flex:after, .row.d-flex:before {display: none}
+.row-flex-center {display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;justify-content: space-between;-webkit-flex-wrap: wrap;-moz-flex-wrap: wrap;-ms-flex-wrap: wrap;-o-flex-wrap: wrap;flex-wrap: wrap;align-items: center}
+.row-flex-center:after, .row-flex-center:before {display: none}
+.grey-bg{background-color:#F9F9F9}
+.padding-60{padding:60px 0;}
+/*--------Gride style ends Here------------*/
+
+.main-wrapper{width: 100%;position: relative;overflow: hidden;background-color: #f7f6f6;}
+.main{max-width: 1200px;margin: 0 auto;}
+
+/*top-header*/
+.header-top{background-color: #111111;padding: 10px 0;}
+.header-top ul.calling-info li{margin-right: 20px;position: relative;display: inline-block;}
+.header-top ul.calling-info li a {font-size: 16px;color: #fff;text-decoration: none;}
+.header-top ul.social{text-align: right;}
+.header-top ul.social li{margin-right: 10px;display: inline-block;}
+ul.social li a{width: 24px;height: 24px;background-color: #E5E5E5;border-radius: 50%;display: inline-block;font-size: 14px;text-align: center;line-height: 26px;color: #111111;}
+
+/*main-header*/
+.main-header{padding: 15px 0;}
+.logo {position: absolute;top: 14px;}
+.nav_list{float: right;}
+.nav-menu-content li {display: inline-block;position: relative;margin-right: 35px;}
+.nav-menu-content li:last-child{margin-right: 0;}
+.nav_list ul {width: 100%;height: 65px;display: flex;list-style: none;margin: 0;padding: 0;}
+.nav_list ul li a {text-decoration: none;color: #000;line-height: 65px;font-size: 16px;font-family: 'Montserrat', sans-serif;}
+.nav_list ul li a:hover{color:#F97955;}
+
+/*Banner-Section*/
+.banner-section{width: 100%; background-position: center center; background-repeat: no-repeat;background-size: cover;position: relative;z-index: 1;}
+.banner-section::after {content: "";position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: #2f39cab9;z-index: -1;}
+.banner-section h1 {color: #fff;text-transform: capitalize;font-size: 53px;font-family: 'Raleway', sans-serif;padding-bottom: 15px;}
+.banner-section p {color: #fff;text-transform: initial;font-size: 40px;font-family: 'Roboto', sans-serif;padding-bottom:15px;}
+.banner-section .call-to-action{list-style: none;background-color: #FCA429;position: relative;border-radius: 60px;}
+button.call-to-action {background-color: #FCA429;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+.banner-section ul li .call-to-action{padding: 15px 0 15px 20px;}
+.banner-section ul li span {color: #fff;font-size: 13px;font-weight: 600; text-transform: uppercase;font-family: 'Montserrat', sans-serif;}
+.banner-section .col-lg-6{position: static;}
+.banner-content{padding: 150px 0}
+.banner-section .row{display: flex;align-items: end;}
+
+/* .banner-section .vsla-banner-img {position: absolute;bottom: 0;left: 800px;} */
+.vsla-banner-img img {max-width: 100%;}
+
+/*upcoming-meeting-section*/
+.middle-section{width: 100%;position: relative;}
+.upcoming-meeting-section{width: 100%; padding: 50px 0;}
+.upcoming-meeting-title{padding-bottom: 15px;}
+.upcoming-meeting-title h2{font-size: 35px;text-transform: uppercase;font-weight: 300;}
+.upcoming-meeting-section .view-all{padding: 15px 0;text-align: right;}
+.upcoming-meeting-section .view-all p a{color: #111111;text-decoration: none;}
+.upcoming-meeting-wrap{border: 2px solid rgb(207, 207, 207);position: relative;border-radius: 5px;}
+.upcoming-meeting-wrap img{max-width: 100%;}
+.um-content{padding: 15px;}
+.um-content h4 {color: #2f39cab9;font-size: 16px;padding-bottom: 20px;}
+.um-content span {color: #111111;font-size: 14px;}
+.um-content p {padding-bottom: 30px;}
+.upcoming-meeting-wrap p a{text-decoration: none;color: #605e5e;font-size: 12px;}
+button.um-more-details {background-color: #2F3ACA;border: none;color: white;padding: 5px 10px;text-align: center;text-decoration: none;display: inline-block;font-size: 14px;margin: 4px 2px;cursor: pointer;border-radius: 50px;}
+
+/*my group*/
+.mygroup-section{text-align: center; background-image: url(../images/mygroup-background.png);background-repeat: no-repeat;background-size: cover;width: 100%;position: relative; padding: 15px 0;z-index: 1;}
+.mygroup-section::after {content: "";position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: #2f39cab9;z-index: -1;}
+.my-grp-title{padding: 15px 0;}
+.mygroup-section h4{color: #fff;font-size: 30px;font-family: 'Roboto', sans-serif;text-align: center;padding-bottom: 20px;}
+.mygroup-section p{color: #fff;font-size: 16px;line-height: 22px; font-family: 'Roboto', sans-serif;text-align: center;padding-bottom: 20px;}
+.mygrp-items{border: 1px solid gray; background-color: #fff;border-radius: 10px;padding: 30px 0;text-align: center;}
+.mygrp-items h3{color:#2F3ACA;font-family: 'Roboto', sans-serif;padding-bottom: 15px;}
+.mygrp-items p{color: #111111;font-size: 15px;font-family: 'Roboto', sans-serif;padding-bottom: 15px;}
+.mygrp-items em{font-style: normal;color: #FCA429;}
+.mygrp-items img{max-width: 100%;border-radius: 50%;width: 100px;height: 100px;}
+.mygrp-wrap {padding-bottom: 20px;}
+button.Create-Group {background-color: #FCA429;border: none;color: white;padding: 15px 32px;border-radius: 50px;text-decoration: none;display: inline-block;font-size: 16px;margin: 4px 2px;cursor: pointer;}
+
+/*passbook-election*/
+.passbook-election-section{padding: 30px 0;}
+.passbook-wrap{border: 2px solid rgb(207, 207, 207);position: relative;border-radius: 5px;}
+.pass-heading-title{padding-bottom: 15px;}
+.pass-heading-title h4{font-style: normal;font-size: 20px;font-weight: 300; font-family: 'Roboto', sans-serif;text-transform: uppercase;}
+.passbook-content{padding: 15px;}
+.passbook-wrap img{width: 100%;}
+.passbook-content h5{font-style: normal;font-size: 16px;font-family: 'Roboto', sans-serif;text-transform: capitalize;padding-bottom: 15px;}
+.passbook-content p{font-style: normal;font-size: 14px;line-height: 22px; font-family: 'Roboto', sans-serif;padding-bottom: 15px;font-weight: 300;}
+
+/*Latestnotification*/
+.lates-notification-section{text-align: center; background-image: url(../images/mygroup-background.png);background-repeat: no-repeat;background-size: cover;width: 100%;position: relative; padding: 15px 0;z-index: 1;}
+.notification-title {background-color: #FCA429;position: relative;border-radius: 50px;width:0;height: 0; bottom: 20px;left: 25%;}
+.notification-title h5{padding: 8px;color: #fff;font-size: 17px;font-style: normal;font-weight: 400;font-family: 'Roboto', sans-serif;}
+.lates-notification-section::after {content: "";position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: #2f39cab9;z-index: -1;}
+.notification-wrap img{max-width: 100%;}
+
+/*group-loans*/
+.group-loans-section{padding:30px 0;}
+.loan-content {width: 100%;padding-bottom:15px;}
+.um-content th, td {padding: 5px;text-align: left; font-size: 13px;font-family: 'Roboto', sans-serif;font-weight: 300; font-style: normal;}
+
+/*footer*/
+.main-footer {padding:0;background-color: #111111;}
+.footer-title {background-color: #FCA429;position: relative;border-radius: 50px;width: 45%;bottom: 20px;left: 25%;height: 40px;}
+button.donate-now {background-color: #2F3ACA;position: relative;border-radius: 50px;width: 35%;bottom: 40px;border: none; left: 65%;height: 40px;color: #fff;font-size: 15px;}
+.main-footer .footer-title h5{color: #111111;font-style: normal;font-size: 15px;font-weight: 400;padding: 11px 30px;}
+.main-footer img{padding-bottom:15px ;}
+.main-footer p{color: #fff;font-size: 12px;line-height: 20px;font-family: 'Roboto', sans-serif;padding-bottom: 17px;}
+.main-footer h5{color: #fff;font-family: 'Roboto', sans-serif; font-size: 15px;padding-bottom: 15px;}
+.main-footer ul.nav-link li a{font-size: 13px; color: #fff;text-decoration: none;font-family: 'Roboto', sans-serif;font-style: normal;line-height: 24px;font-weight: 400;}
+.copyright-section {width: 100%;padding: 15px 0;background-color: #2F3ACA;text-align: center;}
+.copyright-section p{color: #fff;font-size: 14px;font-family: 'Roboto', sans-serif;}
+ul.address-list li a{color: #fff;font-size: 13px; line-height: 24px;text-decoration: none;font-weight: 400;}
+.main-footer ul.nav-link li{display: inherit;}
+.main-footer ul.address-list li{display: inherit;}
